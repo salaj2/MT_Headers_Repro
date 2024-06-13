@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MassTransit" Version="8.2.2" />
+		<PackageReference Include="MassTransit.Azure.Storage" Version="8.2.2" />
+		<PackageReference Include="MassTransit.Newtonsoft" Version="8.2.2" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.2.2" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+		<PackageReference Include="Polly" Version="7.2.3" />
+	</ItemGroup>
+
+</Project>
